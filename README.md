@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sglord/eslint-plugin-no-named-test-function.svg?branch=master)](https://travis-ci.org/sglord/eslint-plugin-no-named-test-function)
+
 # no-named-test-function
 
 requires no function variable in it block
@@ -24,28 +26,20 @@ Add `it-block` to the plugins section of your `.eslintrc` configuration file. Yo
 
 ```json
 {
-    "plugins": [
-        "it-block"
-    ]
+	"plugins": ["it-block"]
 }
 ```
-
 
 Then configure the rules you want to use under the rules section.
 
 ```json
 {
-    "rules": {
-        "it-block/rule-name": 2 // 2 for error or 1 for warn 
-    }
+	"rules": {
+		"it-block/rule-name": 2 // 2 for error or 1 for warn
+	}
 }
 ```
 
 ## Supported Rules
 
-* Fill in provided rules here
-
-
-
-
-
+- Fill in provided rules here
