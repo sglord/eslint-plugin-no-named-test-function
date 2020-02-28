@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-no-named-test-function",
+  "version": "0.0.1",
+  "description": "Insists tests are defined within `it` and `test` blocks ",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "TMT",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive",
+    "test:watch": "mocha tests --recursive --watch"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
