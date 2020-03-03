@@ -75,7 +75,7 @@ RT.run("no-named-test-function", rule, {
             code: "test('done es6', done => {});"
         },
         {
-            code: "test('done es6', async done => {});"
+            code: "test('async done es6', async done => {});"
         },
     ],
 
